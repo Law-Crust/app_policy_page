@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - LawCrust</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+  body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+  }
+
+  .app-bar {
+    padding: 16px;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid #e5e7eb;
+    position: relative;
+  }
+
+  .app-bar h1 {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .content {
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .content h2 {
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #1a202c;
+  }
+
+  .panel {
+    background-color: #e5e7eb;
+    border-radius: 16px;
+    margin: 8px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    border: 1px solid #d1d5db;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .panel .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+
+  .panel .header .title-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .panel .header .icon {
+    font-size: 22px;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .panel .header .title {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 15px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .panel .header .arrow {
+    font-size: 24px;
+    color: #2d3748;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+
+  .panel.active .header .arrow {
+    transform: rotate(180deg);
+  }
+
+  .panel .content {
+    max-height: 0;
+    padding: 0 16px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+  }
+
+  .panel.active .content {
+    max-height: 300px;
+    padding: 12px 16px 16px 16px;
+  }
+
+  p {
+    white-space: pre-wrap;
+    margin: 0;
+    color: #4a5568;
+    line-height: 1.6;
+  }
+
+  .app-bar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: linear-gradient(to right, #edf2f7, #4299e1);
+  }
+</style>
+
+
+
+</head>
+<body>
+  <div class="app-bar">
+    <h1>Privacy Policy</h1>
+  </div>
+  <div class="content">
+    <h2>Privacy Policy for LawCrust</h2>
+    <div class="panels">
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">info</span><div class="title">Information We Collect</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>When you use our App, we may collect:
+- Personal details (name, email, phone)
+- Booking details (consultation type, preferred slots)
+- Optional notes/messages
+
+This helps us facilitate consultations and improve experience.</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">settings</span><div class="title">How We Use Your Information</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>Your information is used for:
+- Booking & managing consultations
+- Sending updates and reminders
+- Improving our services
+- Processing payments for bills
+- Displaying news articles
+- Enabling location-based features after user consent
+
+We NEVER share your data for marketing.</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">lock_open</span><div class="title">Permissions</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>The App may request:
+- Internet Access: To enable communication
+- Notifications: To remind you of appointments
+- Location: To determine your region for tailored services
+
+Permissions are for core functionalities only.</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">shield</span><div class="title">Third-Party Services</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>We use trusted services:
+- Firebase (analytics, authentication)
+- Google Play Services (basic functionality)
+
+They have their own privacy policies:
+- Firebase: https://firebase.google.com/support/privacy
+- Google: https://policies.google.com/privacy</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">security</span><div class="title">Data Security</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>We protect your personal data using modern security practices and encryption methods against unauthorized access or misuse.</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">storage</span><div class="title">Data Retention</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>We keep your data only as long as needed to fulfill services. Upon request, we securely delete your information.</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">child_care</span><div class="title">Children's Privacy</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>The App is not intended for children under 13. We do not knowingly collect data from minors.</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">update</span><div class="title">Changes to This Policy</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>Our Privacy Policy may be updated over time. Changes will be posted here with the revised "Effective Date."</p></div>
+      </div>
+      <div class="panel">
+        <div class="header" onclick="this.parentElement.classList.toggle('active')">
+          <div class="title-container"><span class="material-icons icon">mail_outline</span><div class="title">Contact Us</div></div>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
+        </div>
+        <div class="content"><p>Have questions or concerns?
+
+Email: lawcrust@gmail.com
+Website: lawcrust.com</p></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
